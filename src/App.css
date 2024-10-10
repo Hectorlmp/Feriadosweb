@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f5f5f5; 
+}
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  max-width: 800px; 
+  margin: 20px auto; 
+}
+
+
+h1 {
+  color: #2c3e50; 
+  font-size: 2em;
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+
+button {
+  border-radius: 4px; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s; 
+}
+
+button:hover {
+  background-color: #2980b9; 
+  color: white; 
+}
+
+
+.notification {
+  margin-bottom: 20px; 
+}
+
+
+.timeline-item {
+  margin-bottom: 10px; 
+}
+
+
+.react-calendar {
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.react-calendar__tile {
+  border-radius: 4px; 
+}
+
+.react-calendar__tile--holiday {
+  background-color: transparent; 
+}
+
+.react-calendar__tile--holiday:hover {
+  background-color: rgba(231, 76, 60, 0.1); 
+}
+
+.react-calendar__tile--holiday:enabled {
+  color: red; 
+  font-weight: bold; 
+}
+
+
+.holiday {
+  background-color: rgb(0, 255, 110); 
+  border-radius: 50%; 
+  color: rgb(249, 5, 5); 
+}
+
+.react-calendar .holiday {
+  background-color: red !important; 
+  border-radius: 50%;
+  color: white; 
+  padding: 5px; 
+  border: 1px solid darkred; 
+}
